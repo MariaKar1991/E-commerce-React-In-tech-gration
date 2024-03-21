@@ -1,4 +1,5 @@
 # E-commerce Challenge In-tech-gration Workshop - React + Vite
+# Link to Vercel: https://e-commerce-react-in-tech-gration.vercel.app/
 
 This project is an E-commerce application built using React.js, as part of the In-tech-gration Workshop. It allows users to see a list of products, view details of each product, add products to their cart(counter), and like their favorite products.
 

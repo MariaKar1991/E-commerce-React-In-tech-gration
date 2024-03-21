@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: 80px auto 0 auto;
+}
+
+.sub-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.sub-header .close-btn {
+  font-size: 30px;
+  color: #c8ad78;
+  cursor: pointer;
+}
+.sub-header .title {
+  line-height: 1;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.sub-header .title span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: lowercase;
+  color: #c8ad78;
+}

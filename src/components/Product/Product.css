@@ -1,0 +1,76 @@
+.fa-heart.liked {
+  color: black;
+}
+
+.thumb-unit {
+  width: 24%;
+  margin: 0 0.5% 20px 0.5%;
+  padding: 15px 20px;
+  border: 1px solid #c8ad78;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.thumb-unit.is-in-cart .fa-shopping-cart {
+  color: black;
+}
+
+.thumb-unit.is-active {
+  border: none;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  z-index: 1000;
+  background: white;
+  animation: tada ease-in-out 1000ms forwards;
+}
+
+.thumb-unit.stop-animation {
+  animation-play-state: pause;
+}
+.thumb-unit:hover {
+  border: none;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  z-index: 1000;
+  background: white;
+}
+
+.thumb-unit .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.thumb-unit .heading span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.thumb-unit .box {
+  width: 100%;
+  margin: 10px 0px;
+  transition: all ease-in-out 300ms;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXPoeXWgsnGXHUV281dC1GJF95aPYl-F0WcQ1ZG5UJ4P3xc9n81Q);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumb-unit .box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.thumb-unit .info {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 700;
+}
+.thumb-unit .info .icon {
+  font-size: 20px;
+  color: #c8ad78;
+}
+
+
+
+
+

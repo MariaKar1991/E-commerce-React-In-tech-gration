@@ -1,0 +1,12 @@
+.logo {
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
+}
+.logo span {
+  font-weight: 700;
+}
+.logo .sub-info {
+  font-size: 12px;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+  .thumb-unit {
+    width: 31.33%;
+    margin: 0px 0.5% 20px 0.5%;
+  }
+}
+@media (max-width: 640px) {
+  .thumb-unit {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

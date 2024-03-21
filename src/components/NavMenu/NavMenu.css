@@ -1,0 +1,10 @@
+.navigation a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px; 
+  margin-left: 20px;
+  font-weight: 700;
+}
+.navigation a.active {
+  color: #c8ad78;
+}

@@ -1,4 +1,4 @@
-# React + Vite
+# E-commerce Challenge In-tech-gration Workshop - React + Vite
 
 This project is an E-commerce application built using React.js, as part of the In-tech-gration Workshop. It allows users to see a list of products, view details of each product, add products to their cart(counter), and like their favorite products.
 
@@ -15,5 +15,6 @@ This project is an E-commerce application built using React.js, as part of the I
 - JavaScript (ES6+)
 - CSS
 - PropTypes
+
 
 🚀 Happy coding! 🚀

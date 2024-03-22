@@ -9,7 +9,7 @@ export default function Product({
   removeFromCart,
   isProductInCart,
 }) {
-  const { price, description, image, id } = product;
+  const { price, title, image, id } = product;
 
   // Function to handle like status toggle
   const handleLikeToggle = () => {
@@ -41,7 +41,7 @@ export default function Product({
       </div>
       <div className="box" style={{ backgroundImage: `url(${image})` }} />
       <div className="info">
-        <p>{description}</p>
+        <p>{title}</p>
         <span className="icon">
           <i
             className={`fa fa-shopping-cart ${
@@ -59,7 +59,7 @@ Product.propTypes = {
   product: PropTypes.shape({
     id: PropTypes.number.isRequired,
     price: PropTypes.number.isRequired,
-    description: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
   }).isRequired,
   liked: PropTypes.bool.isRequired,

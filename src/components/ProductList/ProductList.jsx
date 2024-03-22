@@ -1,13 +1,12 @@
 import Product from "../Product/Product";
 import { useEffect, useState } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function ProductList({ setCartCount }) {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
   const [cart, setCart] = useState([]);
 
-  
   useEffect(() => {
     fetch("/products.json")
       .then((response) => {
@@ -74,7 +73,6 @@ export default function ProductList({ setCartCount }) {
               title={product.title}
               image={product.image}
               price={product.price}
-              description={product.description}
               liked={product.liked}
               onLikeToggle={handleLikeToggle}
               addToCart={addToCart}

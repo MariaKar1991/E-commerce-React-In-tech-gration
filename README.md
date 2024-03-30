@@ -3,6 +3,8 @@
 
 This project is an E-commerce application built using React.js, as part of the In-tech-gration Workshop. It allows users to see a list of products, view details of each product, add products to their cart(counter), and like their favorite products.
 
+- It was created as part of the In-tech-gration Workshop: https://www.linkedin.com/feed/update/urn:li:activity:7168703137124343808/
+
 ## Features
 - View a list of products with details such as price, description, and image.
 - Add products to the cart(counter, not full functionality).
